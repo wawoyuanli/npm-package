@@ -1,11 +1,12 @@
 {
-  "name": "npm_01",
-  "version": "0.1.0",
-  "private": true,
+  "name": "test-ui",
+  "version": "1.1.2",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name test-ui --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -18,6 +19,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.0.0",
+    "less-loader": "^6.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
