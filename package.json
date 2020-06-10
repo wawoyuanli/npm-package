@@ -41,5 +41,24 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wawoyuanli/npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "test"
+  ],
+  "author": "hyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wawoyuanli/npm-package/issues"
+  },
+  "homepage": "https://github.com/wawoyuanli/npm-package#readme"
 }
